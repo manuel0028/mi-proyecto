@@ -1,0 +1,223 @@
+:root{
+    --colorPrimario: rgb(55, 204, 87);
+    --colorSecundario: rgba(54, 128, 76, 0.842);
+    --blanco: #FFFFFF;
+    --linearGradient: linear-gradient(142.22deg, #4C7DFE 21.83%, #003DDB 78.88%);
+    --plomo:rgb(0, 0, 0);
+    --poppins: 'Poppins', sans-serif;
+
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: var(--poppins);
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+ul,ol{
+    padding: 0 !important;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(66, 141, 91);
+    padding-top: 50px;
+}
+
+.logo img{
+    width: 150px;
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu li{
+    margin-right: 65px;
+}
+
+.menu li:last-child{
+    margin-right: 0;
+}
+
+.menu a{
+    color: var(--plomo);
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.menu a:hover{
+    color: black;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+.main-description{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 657px;
+}
+
+.main-description h3{
+    font-size: 28px;
+    font-weight: 500;
+    color: var(--colorPrimario);
+}
+
+.main-description h1{
+    font-size: 85px;
+    font-weight: 600;
+}
+
+.main-description p{
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--plomo);
+}
+
+.main-botones{
+    width: 411px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 26px;
+}
+
+.main-botones a:first-child{
+    background-color: var(--colorPrimario);
+    padding: 16px 24px;
+    font-size: 20px;
+    border-radius: 5px;
+    color: var(--blanco);
+}
+.main-botones a:last-child{
+    background-color: transparent;
+    padding: 16px 24px;
+    font-size: 20px;
+    border: 2px solid var(--colorPrimario);
+    border-radius: 5px;
+    color: var(--colorPrimario);
+}
+.main-image img{
+    width: 400px;
+}
+
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-img img{
+    width: 400px;
+    border-radius: 2px;
+}
+
+.about-description{
+    width: 480px;
+    margin-left: 100px;
+
+}
+
+.about-description h3{
+    font-size: 24px;
+    font-weight: 400;
+    color: var(--colorPrimario);
+}
+
+.about-description h2{
+    font-weight: 600;
+    font-size: 50px;
+    color: black;
+}
+
+.about-description p{
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--plomo);
+}
+
+.contenedor{
+    padding: 103px 130px;
+}
+
+.portafolio{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.caja img{
+    width: 580px;
+}
+
+.trabajo{
+    background-color: #f4f6f6;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 60px 55px;
+}
+
+.trabajo h1{
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.trabajo-botones{
+    margin: 0 !important;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 59px 130px;
+    background-color: #f4f6f6;
+}
+
+footer div:first-child h1{
+    font-weight: 600;
+    font-size: 50px;
+}
+
+footer div:first-child h4{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+footer div:last-child i{
+    font-size: 24px;
+    margin-right: 40px;
+    color: var(--plomo);
+}
+
+footer a i:hover{
+    color: var(--colorPrimario)
+
+}
